@@ -1,0 +1,160 @@
+:root {
+  --body-text: #434455;
+  --dark-color: #2e2f42;
+  --active-color: #4d5ae5;
+  --light-background: #f4f4fd;
+  --white-color: #fff;
+}
+
+/*- - - - - - -*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
+  background-color: var(--white-color);
+  
+}
+ul {
+  list-style: none;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+  background-color: var(--light-background);
+  color: var(--active-color);
+}
+button:hover,
+button:focus,
+button:active {
+  background-color: var(--active-color);
+  color: var(--light-background);
+}
+/*HEADER*/
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  color: var(--dark-color);
+  text-decoration: none;
+}
+.logo:active,
+.logo:focus,
+.logo:hover {
+  color: var(--active-color);
+}
+
+.navigation {
+}
+
+.navigation-link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--dark-color);
+  text-decoration: none;
+}
+.navigation-link:hover,
+.navigation-link:focus,
+.navigation-link:active {
+  color: var(--active-color);
+}
+
+.contact {
+}
+.contact-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--dark-color);
+  text-decoration: none;
+}
+.contact-link:active,
+.contact-link:focus,
+.contact-link:hover {
+  color: var(--active-color);
+}
+
+/*SECTION 1/1*/
+
+.main {
+  background-color: var(--dark-color);
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--white-color);
+}
+
+/*SECTION 2/1*/
+
+.principle {
+}
+.principle-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
+}
+.offers-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--dark-color);
+}
+
+/*SECTION 3/1*/
+.team-style{
+  background-color:var(--light-background) ;
+}
+.team {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--dark-color);
+}
+.team-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
+}
+
+/*- - - - - -*/
+
+/* SECTION 2/2*/
+
+.card-sections {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-color);
+}
+
+/*FOOTER*/
+
+.footer {
+  background-color: var(--dark-color);
+}
+.logo-footer {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.3;
+  color: var(--white-color);
+  text-decoration: none;
+}
+.logo-footer:active,
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--active-color);
+}
+.text-footer {
+  color: var(--white-color);
+}
