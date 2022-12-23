@@ -7,12 +7,14 @@
 }
 
 /*- - - - - - -*/
-.main-container {
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+
 }
 
 body {
-  margin-left: auto;
-  margin-right: auto;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -20,7 +22,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--body-text);
   background-color: var(--white-color);
-  max-width: 1440px;
+ 
 }
 ul {
   list-style: none;
@@ -39,8 +41,8 @@ button:active {
 }
 /*HEADER*/
 .header {
-  display: flex;
-  align-items: center;
+  /*display: flex;
+  align-items: center;*/
   padding-left: 156px;
   padding-right: 156px;
   margin: 0;
@@ -48,6 +50,7 @@ button:active {
 }
 .header-main {
   display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -58,16 +61,20 @@ button:active {
   color: var(--dark-color);
   text-decoration: none;
 }
+
 .logo:active,
 .logo:focus,
 .logo:hover {
   color: var(--active-color);
 }
+
 .logo-style {
   color: var(--active-color);
 }
 .navigation {
   display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .navigation .item + .item {
   margin-left: 40px;
@@ -76,6 +83,8 @@ button:active {
 .main-nav {
   display: flex;
   align-items: center;
+ padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .navigation-link {
@@ -84,6 +93,8 @@ button:active {
   line-height: 1.5;
   color: var(--dark-color);
   text-decoration: none;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 .navigation-link:hover,
 .navigation-link:focus,
@@ -94,6 +105,8 @@ button:active {
 .contact {
   display: flex;
   margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .contact .contact-item + .contact-item {
   margin-left: 40px;
@@ -105,6 +118,8 @@ button:active {
   line-height: 1.5;
   color: var(--dark-color);
   text-decoration: none;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 .contact-link:active,
 .contact-link:focus,
@@ -115,7 +130,7 @@ button:active {
 /*SECTION 1/1*/
 
 .main {
-  padding: 192px 465px;
+  padding: 192px 474px;
   background-color: var(--dark-color);
 }
 .hero-title {
@@ -138,8 +153,15 @@ button:active {
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: var(--active-color);
+  color: var(--white-color);
 }
-
+.hero-button:hover,
+.hero-button:focus{
+  background-color: var(--white-color);
+  color: var(--active-color);
+}
 /*SECTION 2/1*/
 .item-principle {
   padding-top: 120px;
